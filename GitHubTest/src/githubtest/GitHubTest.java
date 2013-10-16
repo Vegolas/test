@@ -1,19 +1,19 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package githubtest;
 
-/**
- *
- * @author Student
- */
 public class GitHubTest {
 
-    /**
-     * @param args the command line arguments
-     */
+
     public static void main(String[] args) {
-        System.out.print("Hello world");
+        CD plyta = new CD();
+        
+        plyta.setTitle("DnD");
+        System.out.println(plyta.toString());
+        
+        AudioCD lordi = new AudioCD();
+        
+        lordi.setTitle("Get Heavy");
+        lordi.setArtist("Lordi");
+        lordi.setPrice(65.50);
+        System.out.println(lordi.toString());
     }
 }
